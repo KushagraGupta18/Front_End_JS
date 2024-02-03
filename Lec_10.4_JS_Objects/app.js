@@ -59,8 +59,9 @@ let person1={
 }
 console.log(person1)
 console.log(person1.total())//paranthesis are needed to call methods
-console.log(person1.bulao())//undefined is also came after bulao because function always return anything. when we do not return anything from our function then js automatically returns undefined
-
+//undefined is also came after bulao because function always return anything. when we do not return anything from our function then js automatically returns undefined
+console.log(person1.bulao())//no undefined is print because we are returning string from the function
+console.log(person1.bulao())
 
 //this keyword (by this keyword i can access the properties of object that are present inside object)
 //this is a special keyword which is pointing out the object(person2)
