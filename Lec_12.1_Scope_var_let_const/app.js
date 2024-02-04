@@ -48,8 +48,16 @@
 
 
 
-a();
+// a();
 
-var a = function b() {
-    console.log('Inside b')
-}
+// var a = function b() {
+//     console.log('Inside b')
+// }
+
+
+
+
+//sam
+
+const email="kush@gmail.com";
+console.log(email);

@@ -36,6 +36,6 @@ function fun() {
 
 const f = fun();
 
-// console.log(f);
+console.log(f);
 
 f();
