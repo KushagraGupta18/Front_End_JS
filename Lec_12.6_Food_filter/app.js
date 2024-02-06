@@ -16,7 +16,6 @@ function isVeg(food) {
     }
     return true;
 }
-
 function isOnionGarlicFree(food) {
     
     if (food.toLowerCase().indexOf('onion') !== -1 || food.toLowerCase().indexOf('garlic') !== -1) {
@@ -24,12 +23,28 @@ function isOnionGarlicFree(food) {
     }
     return true;
 }
-
-
-
 const vegMenu = menu.filter(isVeg);
 const jainMenu = menu.filter(isVeg).filter(isOnionGarlicFree);
-
 console.log(menu);
 console.log(vegMenu);
 console.log(jainMenu);
+
+
+
+
+
+
+
+
+
+// function isVeg(item){
+//     if((item.toLowerCase().indexOf('chicken')!== -1) || (item.toLowerCase().indexOf('chicken')!== -1)){
+//         return false;
+//     }
+//     return true;
+// }
+
+
+// let vegMenu=menu.filter(isVeg);
+// console.log(menu);
+// console.log(vegMenu);
