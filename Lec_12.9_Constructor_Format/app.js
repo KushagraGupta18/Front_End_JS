@@ -58,7 +58,7 @@
 // console.log(user2);
 // console.log(user2.desc());
 
-//i always make constructor function by Capital letter.
+//i always make constructor function by Capital letter
 
 function User(username,email){
     this.username=username,
