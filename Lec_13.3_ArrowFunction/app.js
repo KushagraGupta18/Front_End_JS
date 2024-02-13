@@ -33,3 +33,17 @@ const car = {
         console.log(this.color);
     }
 }
+
+
+let addition=(x,y)=>{
+    return x+y;
+}
+console.log(addition(2,3));
+
+
+let squareRoot1 = (num) => Math.sqrt(num);
+console.log(squareRoot1(3));
+
+//if this keyword is used inside arrow function then this will point out to the window object or global object.
+let hello=()=>{console.log(this)};
+hello();

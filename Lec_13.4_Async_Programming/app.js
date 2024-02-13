@@ -103,6 +103,17 @@
 
 
 
+// console.log('start');
+// setTimeout(function(){
+//     console.log('run after 4 sec')
+// },4000);
+// setTimeout(function(){
+//     console.log('run after 2 sec')
+// },2000);
+// console.log('end');
+//in this case two functions are created at storage but in callback queue 2sec wala phle queue mai jayega uske baad 4 sec wala jayega queue mai . thats why function of 2 sec will remove first after that function of 4 sec will be removed
+
+
 //in this case first start and end is run after that 'run after 0 sec' is run. 
 //jbtk aapka call stack empty nhi hoga tbtk callback Queue mai se koi bhi value aapke call stack ke andar nhi jayegi.
 // console.log('start');
