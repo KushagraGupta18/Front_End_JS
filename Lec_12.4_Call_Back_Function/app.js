@@ -18,5 +18,5 @@ function check(item,fn){//check is HOF
     return fn(item);    //calling(getBoolean , get String , get Number as fn are calling so these functions are called Call Back Function)
 }
 console.log(check(true,getBoolean));//true
-console.log(check(19,getString));//false
-console.log(check(19,getNumber));//true
+// console.log(check(19,getString));//false
+// console.log(check(19,getNumber));//true
