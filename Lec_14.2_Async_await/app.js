@@ -49,8 +49,6 @@
 
 //async always works with await .
 //await means ye kaam jbtk khtm nhi hota tb tk kro intezaar.
-
-
 let ar = ['vishu','viashh',1,2,true,false];
 function getBoolean(ar){
     let result=[];
