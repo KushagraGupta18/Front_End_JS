@@ -20,7 +20,7 @@ let magicNumer=10;
 //we cant reinitialized the same variable in  let
 console.log(magicNumer);
 
-magicNumer='kush'//new bucket is formed by kush and our variable magicNumber will point out this buccket now.
+magicNumer='kush'//new bucket is formed by kush and our variable magicNumber will point out this bucket now.
 console.log(magicNumer);
 
 
@@ -32,7 +32,7 @@ console.log(hello);
 hello=true;
 console.log(hello);
 
-//note---> Java Script is an interpreted ,weakly typed , dynamically typed ,   , programming language .
+//note---> Java Script is an interpreted ,JIT compilation , weakly typed , dynamically typed , programming language .
 
 
 //undefined

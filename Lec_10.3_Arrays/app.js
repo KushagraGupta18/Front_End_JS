@@ -10,7 +10,7 @@ console.log(arr2.length);//arr.length is a property so we do not write paranthes
 // console.log(arr2.length());
 
 let ans=console.log(arr2[4]);//we cant store print statement thats why ans is undefined
-console.log(typeof(ans));//it will give undefined because we would not store the existence of console console didn't return anything thats why ans is undefined
+console.log(typeof(ans));//it will give undefined because we would not store the existence of console. console didn't return anything thats why ans is undefined
 
 
 let ans1=arr2[4];

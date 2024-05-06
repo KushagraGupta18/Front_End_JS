@@ -20,7 +20,7 @@
 
 
 //Hoisting--->when you access a variable/function even before its declaration that concept is called hoisting
-//before executing all variables and functions are stored in memory creation phase thats why by consoling ';a' without declaring it. gives undefined
+//before executing all variables and functions are stored in memory creation phase thats why by consoling 'a' without declaring it. gives undefined
 
 // console.log(a);//accessing a variable
 // meraFunc(); //accessing a function
@@ -54,10 +54,11 @@
 
 //in the case of let and const hoisting occurs but in dead temporal zone.
 //DTZ(dead temporal zone)---->we cant accessing a  variables before initializing it in dead temporal zone(this happens in the case of let and const)
-console.log(a)
-kush();
-function kush(){
-    console.log(a);
-    console.log('inner function');
-}
-let a=10;
+
+// console.log(a)   //Cannot access 'a' before initialization
+// kush();
+// function kush(){
+//     console.log(a);
+//     console.log('inner function');
+// }
+// let a=10;

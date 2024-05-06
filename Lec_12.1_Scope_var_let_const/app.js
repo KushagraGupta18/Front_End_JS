@@ -134,24 +134,50 @@ console.log(akshay);
 // (var)--->functional scope
 
 
+//let and const are following block scope thats why after finishing block value gets changes and our value of b  will be printed as 10
+// let b=10;
+// {
+//     let b=80;
+//     console.log(b);//80
+// }
+// console.log(b);//10
+
+
+//var is following functional scope thats why at both place 80 is printed
+// var b=10;
+// {
+//     var b=80;
+//     console.log(b);//80
+// }
+// console.log(b);//80
+
+
+//after full execution of function our value of b changes to 10 again and at final 10 is printed as a value of b
+// var b=10;
+// function fun(){
+//     var b=80;
+//     console.log(b);//80
+// }
+// fun();
+// console.log(b);//10
+
 var b=10;
 function fun(){
-
-    console.log(b);
+    b=80;//value of b is updated. no new memory allocation is not there
+    console.log(b);//80
 }
 fun();
+console.log(b);//80
 
 
-
-
-console.log(a);
-var a=10;
-function fun(){
-    var b=100;
-    function fun2(){
-        console.log(a);
-        console.log(b);
-    }
-    fun2();
-}
-fun();
+// console.log(a);
+// var a=10;
+// function fun(){
+//     var b=100;
+//     function fun2(){
+//         console.log(a);
+//         console.log(b);
+//     }
+//     fun2();
+// }
+// fun();

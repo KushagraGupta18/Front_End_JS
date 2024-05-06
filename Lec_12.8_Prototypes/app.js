@@ -20,15 +20,15 @@
 
 
 //sam
-let todo={
-    title:'buy flowers',
-    desc:function(){
-        return `your task is to ${this.title}`
-    }
-}
-console.log(todo.title);
-console.log(todo.desc());
-console.log(todo.toString());//if we console todo.toString() it will give us object this is only because of prototype 
+// let todo={
+//     title:'buy flowers',
+//     desc:function(){
+//         return `your task is to ${this.title}`
+//     }
+// }
+// console.log(todo.title);
+// console.log(todo.desc());
+// console.log(todo.toString());//if we console todo.toString() it will give us object this is only because of prototype 
 
 //if you try to access the property of an object than javascript will firstly find it inside that object , than if it not found , it will go to its prototype.
 
@@ -45,15 +45,15 @@ console.log(todo.toString());//if we console todo.toString() it will give us obj
 
 //array
 //in the case of an array if we declare array it will convert into an object.
-//and the prototype of an array is Array.prototype(arr.__proto is equal to Array.prototype)
+//and the prototype of an array is Array.prototype(arr.__proto__ is equal to Array.prototype)
 //and the prototype of an Array.prototype is Object.prototype and prototype of Object.prototype is null
-//arr.__proto gives us all methods of an array
+//arr.__proto__ gives us all methods of an array
 
 
 
 //string 
 //string behind the scene converts into an object.
-// and the prototype of an string is String.prototype(str.__proto is equal to String.prototype)
+// and the prototype of an string is String.prototype(str.__proto__ is equal to String.prototype)
 //and the prototype of an String.prototype is Object.prototype and prototype of Object.prototype is null
 //str.__proto gives us all methods of an String.
 

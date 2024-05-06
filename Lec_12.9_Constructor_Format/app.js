@@ -60,18 +60,18 @@
 
 //i always make constructor function by Capital letter
 
-function User(username,email){
-    this.username=username,
-    this.email=email
-}
-User.prototype.desc=function(){ //i add description inside the prototype
-    return `my name is ${this.username}`;
-}
-let user1=new User('kush','kush@gmail.com');//create object
-console.log(user1);
-console.log(user1.desc());
-let user2=new User('vishu','vishu@gmail.com');//create object
-console.log(user2);
-console.log(user2.desc());
+// function User(username,email){
+//     this.username=username,
+//     this.email=email
+// }
+// User.prototype.desc=function(){ //i add description inside the prototype
+//     return `my name is ${this.username}`;
+// }
+// let user1=new User('kush','kush@gmail.com');//create object
+// console.log(user1);
+// console.log(user1.desc());
+// let user2=new User('vishu','vishu@gmail.com');//create object
+// console.log(user2);
+// console.log(user2.desc());
 
 

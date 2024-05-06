@@ -117,10 +117,12 @@ let person={
     age:21,
     isMale:'true'
 }
+//in case of objects for of loop gives error it shows we cant iterate objects
 for(let item in person){
     // console.log(item);//it will give me keys
     // console.log(this.item);//it will give undefined
-    console.log(`${item}--->${person[item]}`);
+    // console.log(`${item}--->${person[item]}`);
+    console.log(`${item}---> ${person[item]}`)
 
 }
 
@@ -129,6 +131,11 @@ for(let item in person){
 let arr=['kush','gupta',10,90];
 for(let item of arr){
     console.log(item);
+}
+
+//as array is also an object so we can use for in loop in which item gives us keys and for accessing values we use ${arr[item]}
+for(let item in arr){
+    console.log(`${arr[item]}`);
 }
 
 

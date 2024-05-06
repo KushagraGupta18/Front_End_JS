@@ -125,8 +125,8 @@ p1.then(()=>{
 })
 .catch()
 
-//in the above code no horizontal growth is there there is vertical growth that is why we are using promises to safe from call back hell.
-//we can do error handling in promises
+//in the above code no horizontal growth is there is vertical growth that is why we are using promises to safe from call back hell.
+//we can do error handling in promises.
 
 //chaining is created by .then() and .catch() in promises. By this promises arize the problem.
 //for this we are using async and await

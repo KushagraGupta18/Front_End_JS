@@ -75,7 +75,7 @@
 
 
 
-//constructor func revise
+// //constructor func revise
 // function Person(firstname,email){
 //     this.firstName=firstname,
 //     this.email=email
@@ -100,25 +100,25 @@
 //class syntax
 
 
-class Person{
-    constructor(firstname,email){
-        this.firstName=firstname,
-        this.email=email
-    }
+// class Person{
+//     constructor(firstname,email){
+//         this.firstName=firstname,
+//         this.email=email
+//     }
 
-    getName(){
-        return (`${this.firstName}+ ${this.email}`);
-    }
+//     getName(){
+//         return (`${this.firstName}+ ${this.email}`);
+//     }
 
-    printName(){
-        console.log(`${this.firstName}+ ${this.email}`);
-    }
-}
-let person1=new Person('MS','mas@gmail.com');
-console.log(person1);
-console.log(person1.firstName);
-console.log(person1.getName());
-console.log(person1.printName());
+//     printName(){
+//         console.log(`${this.firstName}+ ${this.email}`);
+//     }
+// }
+// let person1=new Person('MS','mas@gmail.com');
+// console.log(person1);
+// console.log(person1.firstName);
+// console.log(person1.getName());
+// console.log(person1.printName());
 
 //inheritance(All Properties of Person can be accessed by Stundent because student inherit the Peron class)
 // class Student extends Person{
@@ -149,21 +149,21 @@ console.log(person1.printName());
 
 
 //super is also a constructor which is write when we call super constructor in derived class before accessing 'this' or returning from derived constructor
-//jab hmm apne parent ki property ko run krana chahte hai to super constructor kaam aata hai.
-class Student extends Person{
-    constructor(firstname,email,rollno){
-        super(firstname,email);//firstname,email hmm uper se inherit kr rhe hai which means super constructor ko call krna pdega jo aapne jha se extend kiya hai vha se vo cheez ko laakr dedega
-        this.rollno=rollno;
-    }
+// //jab hmm apne parent ki property ko run krana chahte hai to super constructor kaam aata hai.
+// class Student extends Person{
+//     constructor(firstname,email,rollno){
+//         super(firstname,email);//firstname,email hmm uper se inherit kr rhe hai which means super constructor ko call krna pdega jo aapne jha se extend kiya hai vha se vo cheez ko laakr dedega
+//         this.rollno=rollno;
+//     }
 
-    getName(){      //getName() is override
-        return (` super se bhi uper ${this.firstName}+ ${this.email}`);
-    }
-}
-let student1=new Student('barack','obama@gmail.com',10);
-console.log(student1);
-console.log(student1.firstName);
-console.log(student1.printName());
-console.log(student1.getName());    //first it will search in their local environment if it is not found than it will go to its parent with the help of super constructor 
-console.log(student1.rollno);
+//     getName(){      //getName() is override
+//         return (` super se bhi uper ${this.firstName}+ ${this.email}`);
+//     }
+// }
+// let student1=new Student('barack','obama@gmail.com',10);
+// console.log(student1);
+// console.log(student1.firstName);
+// console.log(student1.printName());
+// console.log(student1.getName());    //first it will search in their local environment if it is not found than it will go to its parent with the help of super constructor 
+// console.log(student1.rollno);
 

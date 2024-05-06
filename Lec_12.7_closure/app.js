@@ -38,7 +38,7 @@
 
 // function somefunc(){
 //     let username='einstein';
-//     function printName(){       //while returning printName, it returns with  variables and functions  that are used in function and return its lexixal environment also.
+//     function printName(){       //while returning printName, it returns with  variables and functions  that are used in function and return its lexical environment also.
 //         console.log(username);
 //     }
 //     return printName;

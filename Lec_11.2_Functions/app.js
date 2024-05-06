@@ -13,14 +13,12 @@
 
 //     return x + y + z;
 // }
-
-// const ans = add(2, 3, 4);
-// console.log(ans);
+// const ans1= add(2, 3, 4);
+// console.log(ans1);
 
 
 // function subtract(a, b=2,c) {
-    
-//     return a - b - c;
+//     return a - b -c;
 // }
 
 // const res = subtract(10, 4);
@@ -117,7 +115,7 @@ function sum(){
 }
 //function calling
 sum();//we can call this func multiple times
-console.log(sum());//it will print undefined also because function is not returning anything.
+console.log(sum());//it will print undefined also because function is not returning anything thats why by default function returns undefined.
 
 
 //parameterised function(when we call the function and pass the arguement and call the variable in parameter)
@@ -227,6 +225,7 @@ function kool(num1,num2){
     return num1+num2;
 }
 let ki1=kool(10,true)//gives 11 because boolean(true) is type casted to Number(1) and add to num2  and overall type is Number
+console.log(ki1)
 console.log(typeof(ki1));//number
 
 

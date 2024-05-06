@@ -47,7 +47,7 @@
 //sam
 
 
-//this kisko point kr rha hai ye decide hoga aapki function callin(invoke) kese ho rhi hai...
+//this kisko point kr rha hai ye decide hoga aapki function calling(invoke) kese ho rhi hai...
 
 
 
@@ -104,7 +104,7 @@
 //     }
 // }
 // obj.fn();//this depend krta hai ki aapke function ki calling kese ho rhi hai .fn function ki calling direct nahi ho rhi hai 
-         //fn function ki calling object ke uper iska mtlb direct callig nhi hai . is case mai this point out krega object ko.
+         //fn function ki calling object ke uper iska mtlb direct calling nhi hai . is case mai this point out krega object ko.
          //this is pointing towards the object over which it is called.
 
 

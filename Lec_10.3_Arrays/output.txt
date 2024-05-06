@@ -63,7 +63,7 @@ colors
 (6) ['Blue', 'Orange', 'Green', 'Brown', 'White', 'Purple']
 colors.slice(2)
 (4) ['Green', 'Brown', 'White', 'Purple']
-colors.slice(2,5);//starting and ending index ei is not included
+colors.slice(2,5);//starting and ending index .   ei is not included
 (3) ['Green', 'Brown', 'White']
 
 

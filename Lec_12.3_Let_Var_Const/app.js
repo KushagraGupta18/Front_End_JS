@@ -15,20 +15,20 @@
 // }
 
 
-console.log('hi i am free');
+// console.log('hi i am free');
 //block are always run
-{
-    console.log('hi i am a block')
-}
+// {
+//     console.log('hi i am a block')
+// }
 
 
 
-//let and const are block scope . block is finished so all variables and function that are defined inside block can not be accessed to outside the block.
+// let and const are block scope . block is finished so all variables and function that are defined inside block can not be accessed to outside the block.
 // let score=50;
 // if(score>33){
 //     let x=20;
 // }
-// console.log(x);//it will give error (Reference Error) ----->because x is undefined
+// console.log(x);//it will give error (Reference Error) ----->because x is defined inside the block by let and let is having a property of block scope.
 
 
 
